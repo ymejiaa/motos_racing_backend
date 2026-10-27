@@ -1,0 +1,29 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno (¡NUNCA subir esto!)
+.env
+.env.local
+.env.production
+
+# Uploads (imágenes subidas por usuarios)
+uploads/mantenimientos/*
+!uploads/mantenimientos/.gitkeep
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Build
+dist/
+build/
